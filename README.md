@@ -4,8 +4,8 @@ This repository contains introductory presentation materials on Git and Github. 
 
 This README file will contain links to the presentations and additional materials.  
 
-- [Git, GitHub (and Cats)]()
-- [Presentation Notes for Git, GitHub (and Cats)]()
+- [Git, GitHub (and Cats)](git_github_cats.pdf)
+- [Presentation Notes for Git, GitHub (and Cats)](git_github_cats_notes.md)
 
 # EPA Disclaimer
 
