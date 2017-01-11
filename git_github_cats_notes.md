@@ -1,9 +1,9 @@
 
 1. title
  - High level overview of core concepts behind Git and GitHub
-    1.what is git?
-    2.how does github relate?
-    3.can i use it for my EPA work?
+    - what is git?
+    - how does github relate?
+    - can i use it for my EPA work?
  - Will pass off to Ben to show example with CMAQ
  - Plus cats...
 2. Cats?/
@@ -39,7 +39,7 @@
 7. git commit -m
  - git commit takes all the files in the staging area and submits them to the project history
  - somewhat analagous to save
-   - although different as you are saving a version of a file, not a new file 
+    - although different as you are saving a version of a file, not a new file 
  - This version that you just created will now exist for ever to return to if you need it.  
  - This all happens in the same file, no need for v1 v2 v3_jwh v4 v4_realone.....
  - All commits also require a message (-m) these are important as you use them to understand what changes were made at each commit
@@ -81,7 +81,7 @@
 14. Github != Git
  - they are not the same.
  - Github is based on git, 
-   - you need git to use the version control parts of Github
+    - you need git to use the version control parts of Github
  - some things on Github can be used without Git (ie. it is a website)
  - In short git and Github are complimentary, but separate
 15. Fork it
@@ -119,8 +119,8 @@
  - takes 1 - Few days to set up (many emails, approvals, listing in the RCS)
  - Can be made public upon manager approval
  - Currently only CC0, Public Domain Dedication is allowed for Federal projects
-   - works OK in most cases
-   - Trying to get approval for other Open Source Initiative approved licenses (eg. MIT, Apache, GPL)
+    - works OK in most cases
+    - Trying to get approval for other Open Source Initiative approved licenses (eg. MIT, Apache, GPL)
  - Outisde collabs can now be added to private repos (recent change)
 20. References
  - lastly some great stuff here.
