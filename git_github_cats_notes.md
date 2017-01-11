@@ -1,9 +1,9 @@
 
 1. title
  - High level overview of core concepts behind Git and GitHub
-  - 1.what is git?
-  - 2.how does github relate?
-  - 3.can i use it for my EPA work?
+    1.what is git?
+    2.how does github relate?
+    3.can i use it for my EPA work?
  - Will pass off to Ben to show example with CMAQ
  - Plus cats...
 2. Cats?/
