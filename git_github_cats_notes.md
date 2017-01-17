@@ -31,10 +31,9 @@
  - But CLI is quicker and easier to implement in most cases.
  - now for some of the basics
 6. git add -A
- - Probably should re-title slide since -A is not always a best practice ...
  - After some edits have been made, git will know that a file has changed since the last commit (more later)
  - These are now "untracked files"
- - use git add -A (or filename) to add all untracked files (or file(s)) to the staging area.
+ - use git add filename or -A to add the untracked file (or all files) to the staging area.
  - These files are now being tracked by git and ready to commit
 7. git commit -m
  - git commit takes all the files in the staging area and submits them to the project history

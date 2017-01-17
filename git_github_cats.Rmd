@@ -46,7 +46,7 @@ class: center, middle
 background-image: url(https://catmacros.files.wordpress.com/2009/12/star_wars_solo_wookie.jpg)
 background-size: cover
 
-# git add -A
+# git add filename.txt
 
 ---
 class: center, middle, inverse
