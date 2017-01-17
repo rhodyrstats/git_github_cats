@@ -30,7 +30,7 @@
  - many GUIs exist (Rstudio, Github for windows,Git GUI)
  - But CLI is quicker and easier to implement in most cases.
  - now for some of the basics
-6. git add -A
+6. git add filename.txt
  - After some edits have been made, git will know that a file has changed since the last commit (more later)
  - These are now "untracked files"
  - use git add filename or -A to add the untracked file (or all files) to the staging area.
