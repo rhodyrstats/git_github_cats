@@ -7,7 +7,7 @@
  - Will pass off to Ben to show example with CMAQ
  - https://github.com/usepa/github_101
  - Plus cats...
-2. Cats?/
+2. Cats?
  -  Cats becuase this was initially an ignite talk
  -  Upon being reminded of that talk, i said all I was going to have
     time for was 5 minutes of cat slides
@@ -31,6 +31,16 @@
  - many GUIs exist (Rstudio, Github for windows,Git GUI)
  - But CLI is quicker and easier to implement in most cases.
  - now for some of the basics
+8. git clone URL
+ - First two commands are the basic workflow, next set are for managing your repositories
+ - clone, does just that, makes an exact copy of another repository
+ - Useful if you want to work on someone elses repo (code, manuscript, etc)
+ - can be local, on network drive, or via remote URL (think Github)
+9. git remote -v
+ - remote URL can be URLs, other repos on networked filesytem etc.
+ - -v lists those that have been set
+ - this is the location from which you clone or where you submit and or get recent changes.
+ - the remote is usually the master repository (ie where everyone submits there changes)
 6. git add filename.txt
  - After some edits have been made, git will know that a file has changed since the last commit (more later)
  - These are now "untracked files"
@@ -43,16 +53,6 @@
  - This version that you just created will now exist for ever to return to if you need it.  
  - This all happens in the same file, no need for v1 v2 v3_jwh v4 v4_realone.....
  - All commits also require a message (-m) these are important as you use them to understand what changes were made at each commit
-8. git clone URL
- - First two commands are the basic workflow, next set are for managing your repositories
- - clone, does just that, makes an exact copy of another repository
- - Useful if you want to work on someone elses repo (code, manuscript, etc)
- - can be local, on network drive, or via remote URL (think Github)
-9. git remote -v
- - remote URL can be URLs, other repos on networked filesytem etc.
- - -v lists those that have been set
- - this is the location from which you clone or where you submit and or get recent changes.
- - the remote is usually the master repository (ie where everyone submits there changes)
 10. git pull origin master 
  - So you have a cloned repo that others are also working on (or you are working on a separate machine)
  - it is possible that the copy you are working on is not the most up-to-date

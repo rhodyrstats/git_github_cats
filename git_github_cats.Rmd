@@ -42,20 +42,6 @@ background-size: cover
 # Commands
 
 ---
-class: center, middle
-background-image: url(https://catmacros.files.wordpress.com/2009/12/star_wars_solo_wookie.jpg)
-background-size: cover
-
-# git add filename.txt
-
----
-class: center, middle, inverse
-background-image: url(https://ilovefunnyanimalpics.files.wordpress.com/2010/01/funny-pictures-your-lolcat-is-fresh-and-individually-packaged1.jpg)
-background-size: cover
-
-# git commit -m <br/> "because cat"
-
----
 class: center, middle, inverse
 background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr02/2012/12/20/13/enhanced-buzz-12095-1356027791-1.jpg?no-auto)
 background-size: cover
@@ -68,6 +54,20 @@ background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/enhanced/w
 background-size: cover
 
 # git remote -v
+
+---
+class: center, middle
+background-image: url(https://catmacros.files.wordpress.com/2009/12/star_wars_solo_wookie.jpg)
+background-size: cover
+
+# git add filename.txt
+
+---
+class: center, middle, inverse
+background-image: url(https://ilovefunnyanimalpics.files.wordpress.com/2010/01/funny-pictures-your-lolcat-is-fresh-and-individually-packaged1.jpg)
+background-size: cover
+
+# git commit -m <br/> "because cat"
 
 ---
 class: center, bottom, inverse
