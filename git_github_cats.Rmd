@@ -53,7 +53,7 @@ class: center, middle, inverse
 background-image: url(https://ilovefunnyanimalpics.files.wordpress.com/2010/01/funny-pictures-your-lolcat-is-fresh-and-individually-packaged1.jpg)
 background-size: cover
 
-# git commit -m <br/> "becuase cat"
+# git commit -m <br/> "because cat"
 
 ---
 class: center, middle, inverse
