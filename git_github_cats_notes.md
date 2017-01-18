@@ -5,6 +5,7 @@
     - how does github relate?
     - can i use it for my EPA work?
  - Will pass off to Ben to show example with CMAQ
+ - https://github.com/usepa/github_101
  - Plus cats...
 2. Cats?/
  -  Cats becuase this was initially an ignite talk
