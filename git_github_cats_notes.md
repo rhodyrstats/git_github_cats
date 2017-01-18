@@ -14,12 +14,12 @@
  -  so, cats!
 3. Git?
  - distributed version control system (DVCS)
+ - Based around concept of repositories (essentially a folder with every file init possible tracked)
  - mostly used to track versions of code, but...
  - for any text (code, manuscript, webiste, grocery list...)
  - binary files too, but at file level
  - track all changes by multiple contributors and allows you to retrieve the text at any prior version
  - think of it as Super Undo!!!  ctrl-z that works for each and every time you save a document
- - Based around concept of repositories (essentially a folder with every file init possible tracked)
 4. Who created it and why?
  - Created by linux community as a homegrown version control system for linux
  - believe it or not, prior to developing git, linux version control done with a commercial solution 
