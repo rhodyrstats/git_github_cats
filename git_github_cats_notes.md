@@ -53,6 +53,11 @@
  - This version that you just created will now exist for ever to return to if you need it.  
  - This all happens in the same file, no need for v1 v2 v3_jwh v4 v4_realone.....
  - All commits also require a message (-m) these are important as you use them to understand what changes were made at each commit
+11. git push origin gh-pages
+ - So, you've made changes and committed to your local repository
+ - push is how you get those sent to the master remote repository
+ - again, origin is simply a shorthand for your remote
+ - gh-pages (could have been master, just messing with things) is the local branch that has committed changes to push 
 10. git pull origin master 
  - So you have a cloned repo that others are also working on (or you are working on a separate machine)
  - it is possible that the copy you are working on is not the most up-to-date
@@ -60,11 +65,6 @@
  - origin is a short name for the URL of the remote
  - master is the local branch into which your pull everything (bit more on branches later)
  - simple case you can always use master and never really worry about branches
-11. git push origin gh-pages
- - So, you've made changes and committed to your local repository
- - push is how you get those sent to the master remote repository
- - again, origin is simply a shorthand for your remote
- - gh-pages (could have been master, just messing with things) is the local branch that has committed changes to push 
 12. git checkout master
  - if you have multiple branches (e.g  master AND gh-pages)
  - checkout lets you switch between them
