@@ -1,8 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
+
 # Git and GitHub Cheatsheets
 I think the best way to start to learn git and GitHub is to think about common workflows, thus, these cheatsheets are built around this idea. Included in this cheatsheet are:
 
