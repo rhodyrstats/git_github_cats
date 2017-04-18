@@ -1,4 +1,4 @@
-#Git and GitHub Cheatsheets
+# Git and GitHub Cheatsheets
 I think the best way to start to learn git and GitHub is to think about common workflows, thus, these cheatsheets are built around this idea. Included in this cheatsheet are:
 
 - [Git setup](#git-setup)
@@ -8,10 +8,10 @@ I think the best way to start to learn git and GitHub is to think about common w
 - [Collaborating with GitHub](#collaborating-with-github)
 - [Help and other stuff](#help-and-other-stuff)
 
-##Git setup
+## Git setup
 These commands are the ones you will ALWAYS forget.  That is becuase they need to be run once on any given setup.  These provide some basic information for git to use when tracking changes to files in your repository as well as for caching your GitHub credentials.  I am assuming you have Git installed already, but if not go to [Git](https://git-scm.com/) (windows).
 
-###User Name and Email
+### User Name and Email
 To set your user name we edit our global config:
 ```
 git config --global user.name "Jeffrey W. Hollister"
@@ -23,7 +23,7 @@ git config --global user.email "jeff.w.hollister@gmail.com"
 
 More help on GitHub for [user name](https://help.github.com/articles/setting-your-username-in-git/) and [email](https://help.github.com/articles/setting-your-email-in-git/).
 
-###Credential Cache
+### Credential Cache
 This is not required but it is handy.  If you don't do this, git and/or RStudio will ask for your username and password on every push.
 
 On Windows:
@@ -45,7 +45,7 @@ See [GitHub for more](https://help.github.com/articles/caching-your-github-passw
 
 With these things done, your machine should be ready to roll with git!
 
-##GitHub setup
+## GitHub setup
 The following assumes you already have an existing account on GitHub, but if you don't browse to [GitHub](https://github.com/join) and sign up.  It's free!  Once your account is set-up there isn't too much more you need to do, other than start using GitHub.  One bit of terminology before we continue: 
 
 - **Repositories**: I already mentioned these briefly, but they require mentioning again as a repository (aka, a "repo") is the basic unit of both Git and GitHub.  Any stand alone project, be it code, a website, a manuscript, a presentation, etc. can be housed as a GitHub repository (and thus tracked via Git).
@@ -68,13 +68,13 @@ Which takes you to the new repository page:
 
 More on [creating a repository on GitHub](https://help.github.com/articles/create-a-repo/) 
 
-##Git command line
+## Git command line
 So having worked through our basic git and GitHub setup we can start to do some more interesting things.  But, as before, a bit of terminology as it relates to repositories.
 
 - local: This is a repository that resides on your local machine or local network.  These contain the files that you (most likely) will be working on directly.
 - remote: This is a repository that is not on your local machine but could possibly be on your local netowrk.  However, for the purposes of this cheatsheet, we can think of our remote repository only being our GitHub repository.  I also think of my remote GitHub repositories as the canonical source.  All local repositories report back to that remote.
 
-###Cloning
+### Cloning
 If you have another repository that you would like to make a copy of, that is referred to as a clone.  Done like:
 
 ```
@@ -88,7 +88,7 @@ git clone https://github.com/jhollist/intro_r_workshop
 
 This is close to a local, command line version of a Fork (discussed [below](#collaborating-with-github)).
 
-###Work with remotes
+### Work with remotes
 View remote details
 
 ```
@@ -105,10 +105,10 @@ git remote add upstream https://github.com/USEPA/R-User-Group
 ```
 These kinds of tasks typically only need to be done once per repository.  
 
-###Typical git workflow
+### Typical git workflow
 This next set of tasks are laid out in what a typical workflow.
 
-####Pull
+#### Pull
 It is always a good idea to do a fresh `git pull` whenever you start working in a local repository.  If you only work on one machine and you are the only one pushing to your remote repository this is unnecessary, but still good habit to get into.
 
 This is accomplished with:
@@ -123,7 +123,7 @@ git pull origin master
 #A different branch
 git pull origin gh-pages
 ```
-####Regular workflow
+#### Regular workflow
 After the pull your session might look like:
 
 1.) Edit your files and save
@@ -154,7 +154,7 @@ git push -u origin master
 ```
 6.) Repeat!  If after a push you shut down for the day, but then start up again on a new machine, you'll start over again at the `git pull` step.
 
-##Git and GitHub with RStudio
+## Git and GitHub with RStudio
 The following assumes Git is alredy installed on your machine.  With Git installed, we just need to make sure that RStudio knows where to find it.  On windows that is most likely going to be in `C:/Program Files (x86)/Git/bin/git.exe`.  In RStudio, go to Tools:Global Options from the menu bar.  Click on Git/SVN down at the bottom left.  The window you get should look like:
 
 ![rstudio options](figure/rstudio_options.png)
@@ -191,16 +191,16 @@ With that finished, click on the "Commit" button.  That will bring up a new wind
 
 In there you can 1) add your commit message and when done, 2) click on commit, and then 3) click on "Push."  
 
-##Collaborating with GitHub
+## Collaborating with GitHub
 All of the instructions proceeding this have more or less assumed a single user repository.  That has lots of benefits, but git and GitHub shine when we start to use them as a collaboration tool.  Some of the key collaboration topics:
 
 - **Forks**: Forks are simply copies of other GitHub repositories.  If you are working with others on a project it is possible that a repository already exists, but that you do not have write access to.  In this case, you "fork" that repository.  GitHub will make a copy of that repository to your account.  You can now make whatever changes you like to your copied version (aka, your "fork") of that original repository.  Lastly, this is a GitHub concept, albeit similar to `git clone`. GitHub help page on [Forks](https://help.github.com/articles/fork-a-repo/)
 - **Pull Requests**: Given the situation above, there is a project/repository that you would like to contribute to, but you don't have push rights.  How do you do this?  Well that is done via a "pull request".  This is always (at least I think so) done from a forked repository.  You make your changes locally, send them to your forked repo, then you ask the maintainers of the repository you forked from to pull in your changes.  Pull requests can also be used when you are working with others on a repo that you all have write access to.  In either case, all of the changes you made are highlighted and others are given the chance to review your work prior to adding to the repo.  Serves as an on-the-fly review process.  GitHub help page on [pull requests](https://help.github.com/articles/using-pull-requests/).
 - **Issues**: Issues are GitHub's way of keeping track of bugs, to-do lists, discussions about new features, etc. (e.g. [the `quickmapr` issues](https://github.com/jhollist/quickmapr/issues)).  Whether you are working on code or on a manuscript that is stored on GitHub, the issues can be a better mechanism for discussing the project than email as it keeps the correspondence with the project itself and makes it part of the history of the project. GitHub guide on [mastering issues](https://guides.github.com/features/issues/). 
 
-##Help and other stuff
+## Help and other stuff
 
-###Learn more
+### Learn more
 There are a gazillion resources out there to help you learn git and GitHub.  here are a few:
 
 - [Hadley's Git Chapter](http://r-pkgs.had.co.nz/git.html)
@@ -211,10 +211,10 @@ There are a gazillion resources out there to help you learn git and GitHub.  her
 - [Carly Strasser's Git and GitHub Primer](http://datapub.cdlib.org/2014/05/05/github-a-primer-for-researchers/)
 - [Google and Stackoverflow](https://www.google.com/#q=stackoverflow%20git)
 
-###A word about `.gitignore`
+### A word about `.gitignore`
 The `.gitignore` file allows you to have files and folders stored in a git repository that aren't tracked by git.  This is handy.  Instead of going into great detail on this, I just wanted to point it out.  I showed this when I created a repository on GitHub, but do make sure to use a `.gitignore` file.  The best one for R projects is going to be the one you can choose on GitHub.  If you forget you can always grab a copy of that from the [GitHub/gitignore repo](https://github.com/github/gitignore/blob/master/R.gitignore). 
 
-###Rendering 
+### Rendering 
 Many files will be rendered nicely when you browse to them in GitHub.  Some examples:
 
 - [Markdown](https://github.com/jhollist/github_101/blob/master/github101_cheatsheets.md): This file...
