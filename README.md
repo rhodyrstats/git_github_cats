@@ -4,7 +4,7 @@ This repository contains introductory presentation materials on Git and Github. 
 
 This README file will contain links to the presentations and additional materials.  
 
-- [Git, GitHub (and Cats)](http://htmlpreview.github.io/?https://github.com/USEPA/github_101/blob/master/git_github_cats.html)
+- [Git, GitHub (and Cats)](http://usepa.github.io/github_101)
 - [Presentation Notes for Git, GitHub (and Cats)](git_github_cats_notes.md)
 
 # EPA Disclaimer
