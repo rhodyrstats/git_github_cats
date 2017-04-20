@@ -2,7 +2,7 @@
 title: "Git and Github<br/>(+ cats)"
 subtitle: "(URL: https://github.com/usepa/github_101)"
 author: "Jeffrey Hollister"
-date: "2017-01-18"
+date: "2017-04-21"
 output:
   xaringan::moon_reader:
     css: ["default", "custom.css"]
@@ -134,13 +134,6 @@ background-size: cover
 # Open Collaboration
 
 ---
-class: center, middle
-background-image: url(http://images.cryhavok.org/d/5105-1/LOLcat+-+I+can+see+no+way.jpg)
-background-size: cover
-
-# EPA?
-
----
 
 # Resources
 
@@ -149,8 +142,7 @@ background-size: cover
 - [Get Git – git-scm.com](http://git-scm.com/)
 - [GitHub](https://github.com/)
 - [Happy Git With R - Jenny Bryan and friends](http://happygitwithr.com/)
-- [US EPA GitHub Guidance](https://www.epa.gov/webguide/github-guidance)
-- [This talk and other materials](https://github.com/usepa/github_101)
+- [This talk and other materials](https://github.com/rhodyrstats/git_github_cats)
 
 ---
 class: center, middle
